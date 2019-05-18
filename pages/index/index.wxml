@@ -1,0 +1,98 @@
+<!--index.wxml-->
+<swiper class='swiper-contener' circular="{{true}}" easing-function="easeOutCubic" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <swiper-item>
+        <image src="../../assice/img/banner.png" class="slide-image" width="355" height="150" />
+    </swiper-item>
+    <swiper-item>
+        <image src="../../assice/img/banner.png" class="slide-image" width="355" height="150" />
+    </swiper-item>
+    <swiper-item>
+        <image src="../../assice/img/banner.png" class="slide-image" width="355" height="150" />
+    </swiper-item>
+</swiper>
+<commonnav ctitle = "关于我们" etitle = "About Us" bg = "background: -webkit-linear-gradient(left, #c000ff,#00c7ef)"></commonnav>
+<view class="banner-pic">
+<image src = "../../assice/img/about_us.jpg"></image>
+</view>
+<view class = "banner-text">
+<text>关于我们中的文字: 不凡学院由一帮80后老北漂组成。我们分别来自于腾讯网，凤凰网，网易等北京知名互联网公司，都曾奋斗在一线技术岗位，我们接项目也带新人！通过实战项目结合培训的教学模式，把知名互联网公司的工作流程，设计方法，开发方式手把手的教给大家。做自己擅长的事，分享知识和快乐！</text>
+</view>
+<view class='environment'>
+<commonnav color = "color : white" ctitle = "教学环境" etitle = "Environment" bg = "background: -webkit-linear-gradient(left, #c75fff,#ff9696)"></commonnav>
+</view>
+<view class='environment-pic'>
+<view class='environment-pic-center'>
+<image class='my-images' src='../../assice/img/evn_1.jpg'></image>
+<view class='environment-pic-text'>
+<text class='top-title'>不凡学院</text>
+<text>平凡人的不平凡</text>
+<text>我们在学校等你</text>
+</view>
+<image class='my-images2' src='../../assice/img/evn_2.jpg'></image>
+<view class='environment-pic-text2'>
+<text class='top-title'>不凡学院</text>
+<text>平凡人的不平凡</text>
+<text>我们在学校等你</text>
+</view>
+<image class='my-images' src='../../assice/img/evn_3.jpg'></image>
+<view class='environment-pic-text'>
+<text class='top-title'>不凡学院</text>
+<text>平凡人的不平凡</text>
+<text>我们在学校等你</text>
+</view>
+</view>
+</view>
+<view class='promise'>
+<commonnav ctitle = "我们承诺" etitle = "Promise" bg = "background: -webkit-linear-gradient(left, #c75fff,#ff9696)"></commonnav>
+</view>
+<view class='promise-list'>
+  <view class='promise-list1 promise-lists'>
+  <text class='large-title'>一对一</text>
+  <text>手把手教学</text>
+  </view>
+  <view class='promise-list2 promise-lists'>
+  <text class='large-title'>百分百</text>
+  <text>实战项目训练</text>
+  </view>
+  <view class='promise-list3 promise-lists'>
+  <text class='large-title'>一份</text>
+  <text>行业认可的作品简历</text>
+  </view>
+  <view class='promise-list4 promise-lists'>
+  <text class='large-title'>免费重学</text>
+  <text>直到你顺利找到工作</text>
+  </view>
+</view>
+<view class='contect-us'>
+<commonnav ctitle = "联系我们" etitle = "Contact Us" bg = "background: -webkit-linear-gradient(left, #c75fff,#ff9696)"></commonnav>
+</view>
+<view class='contect-us-list'>
+<view class='address'>
+<view class='address-pic'>
+<image src = "../../assice/img/address.png"></image>
+</view>
+<text class='top-title'>地址</text>
+<text>郑州市郑东新区金水东路绿地新都汇6号楼1210</text>
+</view>
+<view class='route'>
+<view class='route-pic'>
+<image src = "../../assice/img/route.png"></image>
+</view>
+<text class='top-title'>乘车路线</text>
+<text>郑州市郑东新区金水东路绿地新都汇6号楼1210</text>
+</view>
+<view class='phone'>
+<view class='phone-pic'>
+<image src = "../../assice/img/phone.png"></image>
+</view>
+<text class='top-title'>电话</text>
+<text>郑州市郑东新区金水东路绿地新都汇6号楼1210</text>
+</view>
+<view class='search'>
+<text class ="search-text">搜索bufan公众号了解更多</text>
+<view class='search-pic'>
+<image src='../../assice/img/QR.png'></image>
+</view>
+</view>
+</view>
+

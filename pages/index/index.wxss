@@ -1,0 +1,228 @@
+
+.swiper-contener{
+  width: 100vw;
+  height: 400rpx;
+}
+.swiper-contener swiper-item{
+  width: 100%;
+  height: 100%;
+}
+.swiper-contener swiper-item image{
+  width: 100%;
+  height: 100%;
+}
+.banner-pic{
+  width: 80vw;
+  height: 400rpx;
+  margin: 0 auto;
+}
+.banner-pic image{
+  width: 100%;
+  height: 100%;
+}
+.banner-text{
+  width: 90vw;
+  margin: 20rpx auto;
+}
+.banner-text text{
+  font-size: 28rpx;
+  line-height: 52rpx;
+  text-align: justify;
+}
+.environment{
+  background-color: #3d3d3d;
+   margin-top: 40rpx;
+}
+.environment-pic{
+  width: 100vw;
+  height: 900rpx;
+  background-color: #3d3d3d;
+}
+.environment-pic .environment-pic-center .my-images{
+  width: 284rpx;
+  height: 284rpx;
+  float: left;
+}
+.environment-pic .environment-pic-center .my-images2{
+  width: 284rpx;
+  height: 284rpx;
+}
+.environment-pic .environment-pic-center .environment-pic-text2{
+  width: 284rpx;
+  height: 284rpx;
+  background-color: #fff;
+  float: left;
+}
+.environment-pic .texts{
+  width: 284rxp;
+  height: 284rpx;
+}
+.environment-pic .environment-pic-center{
+  width: 80vw;
+  margin: 0 auto;
+}
+.environment-pic .environment-pic-center .environment-pic-text{
+  width: 284rpx;
+  height: 284rpx;
+  background-color: #fff;
+  float: left;
+}
+.environment-pic .environment-pic-center .environment-pic-text text{
+  display: block;
+  text-align: center;
+  font-size: 20rpx;
+}
+.environment-pic .environment-pic-center .environment-pic-text2 text{
+  display: block;
+  text-align: center;
+  font-size: 20rpx;
+}
+.environment-pic .environment-pic-center .environment-pic-text .top-title{
+  font-size: 28rpx;
+  margin-top: 80rpx;
+}
+.environment-pic .environment-pic-center .environment-pic-text2 .top-title{
+  font-size: 28rpx;
+  margin-top: 80rpx;
+}
+.promise-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
+  height: 400rpx;
+}
+.promise-list .promise-list1{
+  width: 42vw;
+  height: 180rpx;
+  background: -webkit-linear-gradient(left,#f43f3b, #ec008c); 
+  border-radius: 14rpx;
+  float: left;
+}
+.promise-list .promise-list2{
+  width: 42vw;
+  height: 180rpx;
+  background: -webkit-linear-gradient(left,#ff9700, #ed1c24); 
+  border-radius: 14rpx;
+  float: left;
+}
+.promise-list .promise-list3{
+  width: 42vw;
+  height: 180rpx;
+  background: -webkit-linear-gradient(left,#9000ff, #5e00ff); 
+  border-radius: 14rpx;
+  float: left;
+}
+.promise-list .promise-list4{
+  width: 42vw;
+  height: 180rpx;
+  background: -webkit-linear-gradient(left,#ec008c, #6739b6); 
+  border-radius: 14rpx;
+  float: left;
+}
+.promise-list .promise-lists text{
+  display: block;
+  text-align: center;
+  font-size: 28rpx;
+  color: white;
+}
+.promise-list .promise-lists .large-title{
+  display: block;
+  height: 90rpx;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  margin-top: 10rpx;
+}
+.contect-us-list {
+  width: 100vw;
+  height: 1000rpx;
+}
+.address{
+  position: relative;
+  width: 94vw;
+  height: 100rpx;
+  margin: 0 auto;
+}
+.route{
+  position: relative;
+  width: 94vw;
+  height: 100rpx;
+  margin: 40rpx auto;
+}
+.phone{
+  position: relative;
+  width: 94vw;
+  height: 100rpx;
+  margin: 0 auto;
+}
+ .address .address-pic{
+   width: 60rpx;
+   height: 60rpx;
+ }
+ .route .route-pic{
+   width: 60rpx;
+   height: 60rpx;
+ }
+ .phone .phone-pic{
+   width: 60rpx;
+   height: 60rpx;
+ }
+  .address .address-pic image{
+    width: 100%;
+    height: 100%;
+  }
+  .route .route-pic image{
+    width: 100%;
+    height: 100%;
+  }
+  .phone .phone-pic image{
+    width: 100%;
+    height: 100%;
+  }
+  .address text{
+    font-size: 30rpx;
+    margin-left: 70rpx;
+  }
+  .route text{
+    font-size: 30rpx;
+    margin-left: 70rpx;
+  }
+  .phone text{
+    font-size: 30rpx;
+    margin-left: 70rpx;
+  }
+  .address .top-title{
+    position: absolute;
+    top: 18rpx;
+    font-size: 30rpx;
+  }
+  .route .top-title{
+    position: absolute;
+    top: 18rpx;
+    font-size: 30rpx;
+  }
+  .phone .top-title{
+    position: absolute;
+    top: 18rpx;
+    font-size: 30rpx;
+  }
+  .contect-us-list .search{
+    width: 100vw;
+    margin: 100rpx auto;
+  }
+  .contect-us-list .search .search-text{
+    display: block;
+    width: 100vw;
+    text-align: center;
+    font-size: 28rpx;
+  }
+  .contect-us-list .search .search-pic{
+    width: 60vw;
+    height: 400rpx;
+    margin: 0 auto;
+  }
+  .contect-us-list .search .search-pic image{
+    width: 100%;
+    height: 100%;
+  }

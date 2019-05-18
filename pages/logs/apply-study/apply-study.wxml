@@ -1,0 +1,55 @@
+<view class = "taps">
+<view class='taps-text'>
+<text>tips:请按照实际情况填写,申请提交后需同老师沟通了解宿舍的住宿和学费的相关内容,完成所有事项,通过入学审批即可等待入学</text></view>
+</view>
+<view class="cu-form-group address">
+		<view class="title">地址选择</view>
+		<picker mode="region" bindchange="RegionChange" value="{{region}}" custom-item="{{customItem}}">
+			<view class="picker">
+				{{region[0]}}，{{region[1]}}，{{region[2]}}
+			</view>
+		</picker>
+</view>
+	<view class="cu-form-group">
+		<view class="title">身份证号</view>
+		<input bindinput='changemanId' placeholder="请输入身份证号"></input>
+	</view>
+	<view class="cu-form-group tel">
+		<view class="title">紧急联系人</view>
+		<input bindinput='phoneChange' placeholder="请输入电话"></input>
+	</view>
+<view class="cu-form-group margin-top">
+  <view class="title">选择宿舍</view>
+  <picker bindchange="PickerChange" value="{{index}}" range="{{dormList}}">
+    <view class="picker">
+      {{index?dormList[index]:'选择'}}
+    </view>
+  </picker>
+</view>
+	<view wx:if = "{{index == dormList.length-1}}" class="cu-form-group tel">
+		<view class="title">住宿地址</view>
+		<input bindinput='dormAddress' placeholder="请输入住宿地址"></input>
+	</view>
+<view class="cu-form-group margin-top">
+  <view class="title">选择班级</view>
+  <picker bindchange="getClassName" value="{{count}}" range="{{classArr}}">
+    <view class="picker">
+      {{count?classArr[count]:'选择'}}
+    </view>
+  </picker>
+</view>
+	<view class="cu-form-group margin-top">
+		<view class="title">日期选择</view>
+		<picker mode="date" value="{{date}}" start="{{startDate}}" end="2020-09-01" bindchange="dateChange">
+			<view class="picker">
+				{{date}}
+			</view>
+		</picker>
+	</view>
+  <view class="cu-form-group margin-top">
+			<radio></radio>
+			<view class="title">同意入学协议</view>
+  </view>
+  <view class='submit'>
+<button bindtap = "onsubmit">提交申请</button>
+</view>

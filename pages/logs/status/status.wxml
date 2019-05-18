@@ -1,0 +1,66 @@
+<view class = "status">
+<view class='line'></view>
+<text>申请状态</text>
+</view>
+<view class='name'>
+<text class='key-title'>姓名</text>
+<text class='value'>{{studentDetail.name}}</text>
+</view>
+<view class='age'>
+<text>年龄</text>
+<text>{{studentDetail.age}}</text>
+</view>
+<view class='tel'>
+<text>电话</text>
+<text>{{studentDetail.tel}}</text>
+</view>
+<view class='sex'>
+<text>性别</text>
+<text>{{studentDetail.sexv}}</text>
+</view>
+<view class='education'>
+<text>学历</text>
+<text>{{educationList[studentDetail.education]}}</text>
+</view>
+<view class='school'>
+<text>毕业院校</text>
+<text>{{studentDetail.school}}</text>
+</view>
+<view class='professional'>
+<text>专业</text>
+<text>{{studentDetail.major}}</text>
+</view>
+<view class='clazz'>
+<text>试听课程</text>
+<text>{{studentDetail.type||'暂无信息'}}</text>
+</view>
+<block wx:if = "{{!applyStudy}}">
+<view class='manid'>
+<text>身份证号</text>
+<text>{{studentDetail.manID}}</text>
+</view>
+<view class='tel2'>
+<text>紧急联系人</text>
+<text>{{studentDetail.tel2}}</text>
+</view>
+<view class='dorm'>
+<text>宿舍</text>
+<text>{{studentDetail.dormname||studentDetail.address}}</text>
+</view>
+<view class='class-name'>
+<text>班级</text>
+<text>{{studentDetail.classname}}</text>
+</view>
+</block>
+<view class='price'>
+<text>定金</text>
+<text>{{studentDetail.deposit||'暂无信息'}}</text>
+</view>
+<view class='type'>
+<text>状态</text>
+<text>{{studentDetail.status}}</text>
+</view>
+<view wx:if = "{{applyStudy}}" class='on-submit'>
+<navigator  url='../apply-study/apply-study?classType = {{classType}}' open-type='navigate'>
+<button bindtap = "onsubmit">入学申请</button></navigator>
+</view>

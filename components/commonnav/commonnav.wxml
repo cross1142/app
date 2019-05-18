@@ -1,0 +1,6 @@
+<!--components/commonnav/commonnav.wxml-->
+<view class="common-nav">
+<text style = "{{color}}" class='ctitle'>{{ctitle}}</text>
+<view class='middle-line' style = "{{bg}}"></view>
+<text style = "{{color}}" class='etitle'>{{etitle}}</text>
+</view>

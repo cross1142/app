@@ -1,0 +1,239 @@
+/* pages/logs/status/status.wxss */
+page{
+  width: 100vw;
+}
+.status{
+  display: flex;
+  width: 90vw;
+  height: 88rpx;
+  margin: 0 auto;
+  
+}
+.status .line{
+  width: 6rpx;
+  height: 50rpx;
+  background-color: #FF7700;
+  margin-top: 19rpx;
+  border-radius: 6rpx;
+}
+.status text{
+  display: block;
+  margin-left: 50rpx;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+.name text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.age{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+.age text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.tel{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+.tel text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.sex{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+.manid{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+.tel2{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+.dorm{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+.class-name{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+.sex text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.manid text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.tel2 text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.dorm text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.class-name text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.education{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+.education text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.school{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+.professional{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+.clazz{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+   border-bottom: 1px solid #e5e5e5;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+.type{
+  display: flex;
+  justify-content: space-between;
+  height: 88rpx;
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+.school text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.price text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.type text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.professional text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.clazz text{
+  display: block;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+}
+.on-submit{
+  width: 90vw;
+  height: 100rpx;
+  margin: 100rpx auto;
+}
+.on-submit button{
+  background: -webkit-linear-gradient(left,#0b5c08,#00ec47);
+  color: white;
+  font-size: 34rpx;
+}

@@ -1,0 +1,55 @@
+<view class="cu-form-group">
+  <view class="title">姓名</view>
+  <input placeholder="请输入姓名" bindinput = 'getname' placeholder-class = "username-input"></input>
+</view>
+<view class="cu-form-group">
+  <view class="title">年龄</view>
+  <input placeholder="请输入年龄"  bindinput = 'getage' placeholder-class = "username-input"></input>
+</view>
+<view class="cu-form-group">
+  <view class="title">电话</view>
+  <input placeholder="请输入电话"  bindinput = 'gettel' placeholder-class = "username-input"></input>
+</view>
+<view class="cu-form-group">
+  <view class="title">毕业学校</view>
+  <input placeholder="请输入毕业院校"  bindinput = 'getschool' placeholder-class = "username-input"></input>
+</view>
+	<view class="cu-form-group margin-top" >
+		<view class="title">学历</view>
+		<picker bindchange="bindPickerChange" value="{{index}}" range="{{picker}}">
+			<view class="picker">
+				{{index?picker[index]:'选择学历'}}
+			</view>
+		</picker>
+	</view>
+<view class="cu-form-group"  wx:if = "{{courseshow}}">
+  <view class="title">专业</view>
+  <input placeholder="请输入专业"  bindinput = 'getprofessional' placeholder-class = "username-input"></input>
+</view>
+	<view class="cu-form-group margin-top" >
+		<view class="title">班级</view>
+		<picker bindchange="radioChange" value="{{count}}" range="{{clazzArr}}">
+			<view class="picker">
+				{{count?clazzArr[count]:'选择班级'}}
+			</view>
+		</picker>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">性别</view>
+		<switch class="switch-sex" checked bindchange="switch1Change"></switch>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">是否参加工作</view>
+		<switch checked bindchange="switch2Change"></switch>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">日期选择</view>
+		<picker mode="date" value="{{date}}" start="{{startDate}}" end="2020-09-01" bindchange="dateChange">
+			<view class="picker">
+				{{date}}
+			</view>
+		</picker>
+	</view>
+<view class='submit'>
+<button bindtap = "onsubmit">占座申请</button>
+</view>

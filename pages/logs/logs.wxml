@@ -1,0 +1,13 @@
+
+<view class='user-info'>
+<block wx:if="{{hasInfo}}">
+        <image class='user-pic' src="{{avatar}}" mode='aspectFill'></image>
+        <view class='user-name'>{{userName}}</view>
+    </block>
+    <block wx:else>
+        <button wx:if="{{canIUse}}" open-type='getUserInfo' bindgetuserinfo="getUserInfo">获取用户信息</button>
+        <button wx:else>请开放您的权限</button>
+    </block>
+</view>
+<navigator wx:if = "{{!wait}}" class='go-next' url='./application/application' open-type='navigate'>试听申请</navigator>
+<navigator  wx:if = "{{wait}}" class='status' url='./status/status' open-type='navigate'>状态查看</navigator>

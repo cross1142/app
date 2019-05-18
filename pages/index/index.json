@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "commonnav": "/components/commonnav/commonnav"
+  },
+  "navigationBarTitleText": "不凡学院"
+}

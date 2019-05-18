@@ -1,0 +1,30 @@
+/* components/commonnav/commonnav.wxss */
+page{
+  width: 100%;
+}
+.common-nav{
+  width: 100%;
+  height: 180rpx;
+  overflow: hidden;
+}
+.middle-line{
+  margin: 0 auto;
+  width: 22vw;
+  height: 4rpx;
+  margin-top: 10rpx;
+  /* background: -webkit-linear-gradient(left, #c000ff,#00c7ef); */
+}
+.ctitle{
+  display: block;
+  width: 100%;
+  font-size: 32rpx;
+  text-align: center;
+  margin-top: 50rpx;
+}
+.etitle{
+  display: block;
+  width: 100%;
+  font-size: 20rpx;
+  text-align: center;
+  margin-top: 10rpx;
+}

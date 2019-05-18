@@ -1,0 +1,37 @@
+/* pages/logs/apply-study/apply-study.wxss */
+page{
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+.taps{
+  width: 100vw;
+  height: 200rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+}
+.taps .taps-text{
+  width: 90vw;
+  height: 200rpx;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.taps text{
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+.address{
+  margin-bottom: 30rpx;
+}
+.tel{
+  margin-top: 30rpx;
+}
+.submit{
+  width: 90vw;
+  height: 100rpx;
+  margin: 50rpx auto;
+}
+.submit button{
+  background: -webkit-linear-gradient(left,#0b5c08,#00ec47);
+  color: white;
+  font-size: 34rpx;
+}

@@ -1,0 +1,43 @@
+
+.user-info{
+  width: 100vw;
+  height: 400rpx;
+  background: -webkit-linear-gradient(left,#f43f3b, #ec008c);
+  overflow: hidden;
+}
+.user-pic{
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+  margin: 80rpx auto;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+}
+.user-name{
+  display: block;
+  width: 100vw;
+  text-align: center;
+  font-size: 28rpx;
+  margin-top: -60rpx;
+  color: #fff;
+}
+.go-next{
+  display: block;
+  width: 90vw;
+  margin: 0 auto;
+  height: 80rpx;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 28rpx;
+  line-height: 80rpx;
+
+}
+.status{
+  display: block;
+  width: 90vw;
+  margin: 0 auto;
+  height: 80rpx;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 28rpx;
+  line-height: 80rpx;
+
+}

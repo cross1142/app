@@ -1,0 +1,24 @@
+
+.wx-switch-input{
+width:82rpx !important;
+height:50rpx !important;
+}
+.wx-switch-input::before{
+width:80rpx !important;
+height: 44rpx !important;
+}
+.wx-switch-input::after{
+width: 40rpx !important;
+height: 36rpx !important;
+}
+.submit{
+  width: 90vw;
+  height: 100rpx;
+  margin: 100rpx auto;
+}
+.submit button{
+  background: -webkit-linear-gradient(left,#0b5c08,#00ec47);
+  color: white;
+  font-size: 34rpx;
+}
+
